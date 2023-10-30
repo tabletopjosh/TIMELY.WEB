@@ -1,6 +1,7 @@
 def theuser():
- print ("Hello friend.")
- print ("Welcome to Timely.")
+ print ("Hello friend, welcome to Timely.")
  name = input("What's your name?")
  print ("Greetings," + name + "!")
- return()
+ return(name)
+
+theuser()
